@@ -1,0 +1,18 @@
+Header:
+  Type: KAT_DB
+  Version: 1
+Body:
+  - Id: 501
+    Name: Red Potion
+    Rate: 7500
+    Flag: true
+    Ratio: 1.25
+  - Id: 502
+    Name: Blue Potion
+    Rate: 20000
+    Flag: maybe
+  - Id: not_a_number
+  - Id: 504
+    Rate: 1
+    Flag: False
+    Ratio: 2e1

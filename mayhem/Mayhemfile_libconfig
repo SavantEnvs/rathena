@@ -1,0 +1,9 @@
+project: savantenvs/rathena
+target: fuzz_libconfig
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_libconfig/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_libconfig
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_libconfig/fuzz_libconfig.dict

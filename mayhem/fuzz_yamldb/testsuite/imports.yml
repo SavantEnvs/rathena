@@ -1,0 +1,16 @@
+Header:
+  Type: X
+  Version: 1
+Footer:
+  Imports:
+    - Path: db/import/x.yml
+      Mode: Prerenewal
+    - Path: db/import/y.yml
+      Generator: true
+Body:
+  - Id: 1
+    Anchors: &a [1, 2, {k: v}]
+    Ref: *a
+    Text: |
+      multi
+      line

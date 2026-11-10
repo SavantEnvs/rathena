@@ -1,0 +1,3 @@
+line 0: 5 fields [1] [Red_Potion] ["a] [b"] [10]
+line 1: 4 fields [2] [Blue_Potion] [x\ty] []
+line 2: 3 fields [3] ["unterminated] [5]
