@@ -1,0 +1,5 @@
+entry 501: Name=Red Potion Rate=7500 Flag=1 Ratio=1.250
+entry 502: Name=Blue Potion Rate=ERR Flag=ERR Ratio=ERR
+entry: Id invalid
+entry 504: Name=ERR Rate=1 Flag=0 Ratio=20.000
+parsed 3 entries
