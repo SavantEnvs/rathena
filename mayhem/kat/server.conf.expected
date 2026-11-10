@@ -1,0 +1,5 @@
+server.port=6900
+server.name=rAthena	Test
+server.rate=2.50
+server.pvp=1
+server.maps(3): prontera geffen payon
